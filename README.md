@@ -67,14 +67,3 @@ L_total = λ_data  × L_supervised        (labelled VO₂max, τ, C ... if avail
         + λ_phys  × physiological_bound_violations
 
 ```
-
-## Project Structure
-
-MetabolicPINN/
-├── pinn_model.py       Model architecture, analytical ODE solutions
-├── physics_loss.py     ODE residuals, empirical VO₂max priors, combined loss
-├── data_utils.py       Normalisation, synthetic data generator, dataset classes
-├── train.py            Full training pipeline (CLI)
-├── app.py              Gradio web interface
-├── requirements.txt
-└── README.md
