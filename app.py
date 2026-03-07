@@ -544,7 +544,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--share", action="store_true", help="Create public Gradio link")
     parser.add_argument("--port",  type=int, default=7860)
-    args = parser.parse_args()
+    
+    args, _ = parser.parse_known_args()
 
     demo = build_interface()
+    
     demo.launch(server_port=args.port, share=args.share, show_error=True)
