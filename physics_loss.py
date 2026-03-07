@@ -342,3 +342,4 @@ if __name__ == "__main__":
     print("Loss components:")
     for k, v in comps.items():
         print(f"  {k:12s}: {v:.6f}")
+
