@@ -7,4 +7,4 @@ or $$\tau \frac{dVO_2(t)}{dt} + VO_2(t) = VO_{2,ss}$$
 ​
 
 Equation 2 - Lactate Accumulation & Clearance
-$$\frac{dL}{dt} = P(w) - C * L(t)$$
+$$\frac{dL}{dt} = P(w) - C \cdot L(t)$$
