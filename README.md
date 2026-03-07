@@ -9,7 +9,7 @@ $VO_2​(t)$: Current oxygen uptake.
 
 $VO_2,ss​$: Steady-state oxygen demand for a given workload.
 
-$τ (Tau)$: The time constraint​
+$τ$: The time constraint​
 
 Equation 2 - Lactate Accumulation & Clearance
 $$\frac{dL}{dt} = P(w) - C \cdot L(t)$$
