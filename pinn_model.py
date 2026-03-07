@@ -1,3 +1,8 @@
+# The neural network. 6-block residual architecture with sigmoid-bounded outputs.
+# Enforces physiological ranges and constraints.
+# Also contains the analytical ODE solutions for VO2(t) and L(t) used in both training and visualisation.
+
+
 """
 MetabolicPINN - Physics-Informed Neural Network for Metabolic Threshold Prediction
 Core model architecture.
