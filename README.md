@@ -67,3 +67,14 @@ L_total = λ_data  × L_supervised        (labelled VO₂max, τ, C ... if avail
         + λ_phys  × physiological_bound_violations
 
 ```
+
+**Requirements**
+
+torch>=2.1.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+gradio>=4.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+tqdm>=4.65.0
