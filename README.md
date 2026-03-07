@@ -7,7 +7,7 @@ $$\tau \frac{dVO_2(t)}{dt} + VO_2(t) = VO_{2,ss}$$
 **Analytical solution:** $VO_2(t) = VO_{2max} - (VO_{2max} - VO_{2,rest}) \cdot e^{-t/\tau}$
 
 - **τ (tau)** — time constant of VO₂ response (seconds). Fit individuals have lower τ (~20–40s); sedentary adults ~60–90s.
-- **VO₂max** — maximal oxygen uptake (ml/kg/min), the "gold standard" of aerobic fitness.
+- **VO₂max** — maximal oxygen uptake (ml/kg/min), the gold standard of aerobic fitness.
 
 ### Eq 2 — Lactate Accumulation & Clearance
 $$\frac{dL}{dt} = P(w) - C \cdot L(t)$$
@@ -66,9 +66,10 @@ L_total = λ_data  × L_supervised        (labelled VO₂max, τ, C ... if avail
         + λ_emp   × ||VO₂max - VO₂max_empirical||²    (Uth / ACSM / Daniels)
         + λ_phys  × physiological_bound_violations
 
+```
+
 ## Project Structure
 
-```
 MetabolicPINN/
 ├── pinn_model.py       Model architecture, analytical ODE solutions
 ├── physics_loss.py     ODE residuals, empirical VO₂max priors, combined loss
