@@ -4,5 +4,6 @@ Metabolic Threshold Prediction via Physics-Informed Neural Networks (PiNNs) is a
 Equation 1 - Oxygen Uptake (VO2​) Kinetics
 $$\frac{d\dot{V}O_2(t)}{dt} = \frac{\dot{V}O_{2max} - \dot{V}O_2(t)}{\tau}$$
 ​
+
 Equation 2 - Lactate Accumulation & Clearance
 $$\frac{dL}{dt} = P(w) - C \cdot L(t)$$
