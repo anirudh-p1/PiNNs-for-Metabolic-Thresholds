@@ -95,9 +95,9 @@ def generate_synthetic_population(n: int = 10_000, seed: int = 42) -> pd.DataFra
 
     # ── VO2max (ground truth, ml/kg/min) ──────────────────────────────────
     # Base by fitness category and sex
-    vo2_base = np.where(fitness == "sedentary",   30,
-               np.where(fitness == "recreational", 42,
-               np.where(fitness == "trained",       55, 70)))
+    vo2_base = np.where(fitness == "sedentary",   30.0,
+               np.where(fitness == "recreational", 42.0,
+               np.where(fitness == "trained",       55.0, 70.0)))
     vo2_base += sex_male * 8.0                          # males ~8 ml/kg/min higher
     vo2_base -= (age - 25) * 0.25                       # age-related decline
     # Weight penalty for obese
