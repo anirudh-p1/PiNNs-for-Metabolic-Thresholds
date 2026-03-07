@@ -1,4 +1,4 @@
-# Gradio UI with 5 plots (courtesy of Claude)
+# Gradio UI with 5 plots
 # 1. Vo2, 2. Lactate, 3. Zone, 4. Hr/VO2 and 5. VO2 gauge
 
 """
