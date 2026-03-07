@@ -6,7 +6,9 @@ $$\frac{d{V}O_2(t)}{dt} = \frac{{V}O_{2max} - {V}O_2(t)}{\tau}$$
 or $$\tau \frac{dVO_2(t)}{dt} + VO_2(t) = VO_{2,ss}$$
 
 $VO_2​(t)$: Current oxygen uptake.
+
 $VO_2,ss​$: Steady-state oxygen demand for a given workload.
+
 $τ (Tau)$: The time constraint​
 
 Equation 2 - Lactate Accumulation & Clearance
