@@ -278,11 +278,16 @@ def parse_args():
     p.add_argument("--n_blocks",   type=int,   default=6)
     p.add_argument("--synthetic",  type=int,   default=20_000,     help="Synthetic samples")
     p.add_argument("--out_dir",    type=str,   default="checkpoints")
-    return p.parse_args()
+    
+    # Use parse_known_args and only return the 'args' part (the first item in the tuple)
+    args, _ = p.parse_known_args()
+    return args
 
 
 if __name__ == "__main__":
+    # FIX: Call the function you just defined to get the args
     args = parse_args()
+    
     config = DEFAULT_CONFIG.copy()
     config.update({
         "epochs":         args.epochs,
