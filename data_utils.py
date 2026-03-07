@@ -1,4 +1,4 @@
-# Synthetic data generator (courtesy of Claude)
+# Synthetic data generator 
 # Creates 20,000 physiologically realistic 'people'
 
 """
