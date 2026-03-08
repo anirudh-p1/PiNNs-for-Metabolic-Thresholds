@@ -78,3 +78,11 @@ L_total = λ_data  × L_supervised        (labelled VO₂max, τ, C ... if avail
 - scikit-learn>=1.3.0
 - scipy>=1.11.0
 - tqdm>=4.65.0
+
+**Future Version Improvements**
+
+- Fick Equation to link HR to VO2
+- Improved model accuracy through greater training
+- Optimised code
+- Improved UI
+- Changing differential equations, and their analytic solutions
